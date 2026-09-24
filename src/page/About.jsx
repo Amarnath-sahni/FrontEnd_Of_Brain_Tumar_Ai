@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import mind from "../assets/mind.png";
 import depressMind from "../assets/depressMind.png";
-import DepressMind2 from "../assets/depressMind2.png";
+import depressMind2 from "../assets/depressMind2.png";
 import depressMind3 from "../assets/depressMind3.png";
 import positive1 from "../assets/healthy.png";
 import positive2 from "../assets/positiveMind.png";
@@ -11,7 +11,7 @@ import positive3 from "../assets/MentalHealth.png";
 const images = [
   { src: mind, text: "Understand your mind and thoughts.", link: "/mind" },
   { src: depressMind, text: "Mental health starts with self-care.", link: "/d" },
-  { src: DepressMind2, text: "Recognize signs of depression early.", link: "/d2" },
+  { src: depressMind2, text: "Recognize signs of depression early.", link: "/d2" },
   { src: depressMind3, text: "Reach out for help if you feel low.", link: "/d3" },
   { src: positive1, text: "Focus on positive habits daily.", link: "/p" },
   { src: positive2, text: "Surround yourself with support.", link: "/p2" },
@@ -28,7 +28,7 @@ const About = () => {
       <section
         className="relative h-screen flex items-center justify-center"
         style={{
-          backgroundImage: `url(${DepressMind2})`,
+          backgroundImage: `url(${depressMind2})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",

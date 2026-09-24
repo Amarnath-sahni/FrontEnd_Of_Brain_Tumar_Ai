@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { FaBook, FaInfoCircle, FaPlus } from "react-icons/fa";
 import { HiHome } from "react-icons/hi";
 import { BiLogIn, BiLogOut } from "react-icons/bi";
-import { AuthContext } from "../Context.jsx/AuthProvider";
+import {AuthContext } from '../Context.jsx/AuthProvider'
 import { ThemeContext } from "../Context.jsx/ThemeProvider";
 import { TiAdjustBrightness } from "react-icons/ti";
 

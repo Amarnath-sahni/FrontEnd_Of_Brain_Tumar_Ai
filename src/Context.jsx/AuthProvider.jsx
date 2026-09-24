@@ -15,7 +15,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (userData) => {
     try {
       const res = await axios.post(
-        "https://backend-lilac-six-27.vercel.app/api/user/login",
+        "http://localhost:9000/api/user/login",
         {
           email: userData.email,
           password: userData.password,
@@ -48,7 +48,7 @@ export const AuthProvider = ({ children }) => {
   const logout = async () => {
     try {
       await axios.delete(
-        "https://backend-lilac-six-27.vercel.app/api/user/logout",
+        "http://localhost:9000/api/user/logout",
         { withCredentials: true }
       );
 
